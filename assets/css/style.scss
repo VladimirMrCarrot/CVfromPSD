@@ -4,6 +4,8 @@ body {
 	background: #f5f7fa;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
+
+	margin: 0 2.5rem; 
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,7 +16,16 @@ h1,h2,h3,h4,h5,h6 {
 a {
 	text-decoration: none;
 	color: #fff;
-	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	margin: .625rem 0 0 -1.25rem;
+	width: 100%;
+	max-width: 26.875rem;
 }
 
 /* Container */ 
@@ -41,7 +52,7 @@ a {
 }
 
 .cv__info {
-	margin: 0 0 2rem 2.8125rem;
+	margin: 0 0 2rem 2.5rem;
 }
 
 .bio__title {
@@ -57,11 +68,7 @@ a {
 }
 
 .contact__item span {
-	margin-right: .625rem;
-}
-
-.contact__item a:hover {
-	text-decoration: underline;
+	margin-right: .5rem;
 }
 
 .cv__skills ul{
@@ -69,7 +76,6 @@ a {
 }
 
 .cv__skills ul li {
-	margin: .625rem 0 0 -1.2rem;
 	color: #ff6b08;
 }
 
@@ -80,7 +86,102 @@ a {
 
 /* Right */ 
 .cv__right {
+	margin: 0 0 2rem 6rem;
 	width: 69%;
+	color: #000;
 }
+
+.right__title {
+	margin-top: 3.125rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.about__prof {
+	margin: 6.875rem 0 0;
+	font-size: .875rem;
+	font-weight: 700;
+}
+
+.about__name {
+	margin-top: 1rem;
+	font-size: 2.8125rem;
+	font-weight: 700;
+}
+
+.about__text {
+	color: #595959;
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.375rem;
+
+	margin: 1rem 0 0;
+
+	width: 100%;
+	max-width: 26.875rem;
+}
+
+.projects ol {
+	font-size: .875rem;
+	font-weight: 700;
+	line-height: 1.25rem;
+}
+.projects ol li span {
+	color: #595959;
+	font-weight: 400;
+}
+
+.projects a {
+	color: #595959;
+}
+
+.exp__prof {
+	margin-top: 1.25rem;
+
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.exp__prof span {
+	color: #ff6b08;
+
+}
+
+.period {
+	margin: .9375rem 0;
+
+	color: #a8a8a8;
+	font-size: .75rem;
+	font-weight: 400;
+}
+
+.stick {
+	color: #000;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.exp__responsibility {
+	line-height: 1.25rem;
+	color: #595959;
+	font-size: .875rem;
+	font-weight: 400;
+}
+
+.education__place {
+	margin-top: 1.25rem;
+
+	color: #ff6b08;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.education__prof {
+	margin-top: 1.25rem;
+
+	font-size: .875rem;
+	font-weight: 700;
+}
+
 
 
