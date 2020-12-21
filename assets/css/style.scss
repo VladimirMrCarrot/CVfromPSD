@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+	background: #f5f7fa;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+/* Container */ 
+.container {
+	display: flex;
+
+	width: 100%;
+	max-width: 75rem;
+	margin: 2.5rem auto;
+	background: #fff;
+
+}
+
+/* Left */ 
+.cv__left {
+	width: 31%;
+	background: #1e2939;
+}
+
+.cv__photo {
+	margin: 2.5rem 0 0;
+	height: 100%;
+	width: 100%;
+}
+
+.cv__info {
+	margin: 0 0 2rem 2.8125rem;
+}
+
+.bio__title {
+	margin: 3rem 0 0;
+}
+
+.cv__contacts {
+	display: inline-block;
+}
+
+.contact__item {
+	margin-top: .675rem;
+}
+
+.contact__item span {
+	margin-right: .625rem;
+}
+
+.contact__item a:hover {
+	text-decoration: underline;
+}
+
+.cv__skills ul{
+	margin: 0 0 .625rem;
+}
+
+.cv__skills ul li {
+	margin: .625rem 0 0 -1.2rem;
+	color: #ff6b08;
+}
+
+.cv__skills ul li span {
+	color: #fff;
+	margin-left: 0.2rem;
+}
+
+/* Right */ 
+.cv__right {
+	width: 69%;
+}
+
+
